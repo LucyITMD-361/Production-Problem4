@@ -1,1 +1,98 @@
+body
+{
+  background-image:url("http://www.universetoday.com/wp-content/uploads/2013/03/Andromeda_Galaxy_Adam-Evans-Wiki.jpg")
+    
+}
+.homePage
+{  
+  background-color:black;
+  background-size: 100% auto;
+  
+}
+#backImage
+{
+padding-right: 150px;
+  position: center;
+     margin: auto;
+     width: 900px ;
+    height: 100px;
+}
+#homePGHeading
+{
+  text-align: center;
+  color: white;
+  font-size:  80px;
+  padding-right: 90px;
+}
 
+.earthImg
+{
+  float: left;
+  
+  width: 200px;
+  height: auto; 
+}
+#saturnImg
+{
+  position: relative;
+  bottom:-280px;
+  left: -200px;
+}
+#jupiterImg
+{
+  position: relative;
+  width: 200px;
+  height: auto;
+  bottom:-580px;
+  left: -455px;
+}
+#planetsT
+{
+  width: 100%;
+  background-color: gray
+}
+table,th,td
+{
+  border: 1px solid black;
+}
+.planetI
+{
+  width: 2%;
+}
+.planetF
+{
+  text-align: center;
+}
+.pF
+{
+  width:10%;
+}
+#headingOfPG
+{
+  text-align: center;
+  font-size:60px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #9966ff, 0 0 5px #7733ff;
+}
+th
+{
+  font-size:20px;
+  font-weight: bold;
+}
+th:hover
+{
+  background-color:black;
+ color:white;
+}
+
+td:hover
+{
+  background-color: black;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+tr:hover
+{
+  background-color:#9966ff;
+}
